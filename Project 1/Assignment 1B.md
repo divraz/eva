@@ -22,7 +22,8 @@ def number_of_operations (x):
 		print count  
 ```
 
-**Calc** : 199x199 | 3x3 > 197x197  
+**Calc** : 
+1. 199x199 | 3x3 > 197x197  
 ...197x197 | 3x3 > 195x195  
        195x195 | 3x3 > 193x193
        193x193 | 3x3 > 191x191
