@@ -9,7 +9,8 @@
 # Ques : How many times do we need to perform 3x3 convolution operation to reach 1x1 from 199x199?
 **Ans**  : We need to perform **99** times 3x3 convolution operation.
 
-**Func** : ```python  
+**Func** : 
+```python  
 	  def number_of_operations (x):  
 	        count = 0  
 	        while (x != 1):  
@@ -19,10 +20,10 @@
 		        print str (x) + 'x' + str (x)  
 		        count += 1  
 	          print count  
-	```
+```
 
 **Calc** : 199x199 | 3x3 > 197x197  
-       197x197 | 3x3 > 195x195  
+...........197x197 | 3x3 > 195x195  
        195x195 | 3x3 > 193x193
        193x193 | 3x3 > 191x191
        191x191 | 3x3 > 189x189
