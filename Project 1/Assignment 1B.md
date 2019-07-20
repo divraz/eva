@@ -1,16 +1,16 @@
-# Ques : What are Channels and Kernels?
+# What are Channels and Kernels?
 **Ans**  : Channel is a container of similar things whereas kernels help us to identify those similar things.  
 	   For example: `Horizontal lines` is a channel whereas `[[-1,-1,-1],[0,0,0],[1,1,1]]` is a kernel to identify all the horizontal lines in the image.
 
 
-# Ques : Why should we only (well mostly) use 3x3 Kernels?
+# Why should we only (well mostly) use 3x3 Kernels?
 **Ans**  : We should use 3x3 kernels because:
 1. It is odd number of rows and columns which allows us to divide it equally into any section we require.
 2. It is smallest size of odd dimension kernel which captures a sequence of information/features which means fast.
 3. Nvidia/GPU development has happened to support 3x3 kernels mostly which makes it very fast.
 
 
-# Ques : How many times do we need to perform 3x3 convolution operation to reach 1x1 from 199x199?
+# How many times do we need to perform 3x3 convolution operation to reach 1x1 from 199x199?
 **Ans**  : We need to perform **99** times 3x3 convolution operation.
 
 **Func** : 
