@@ -1,12 +1,12 @@
-#Ques : What are Channels and Kernels?
+# Ques : What are Channels and Kernels?
 *Ans*  :
 
 
-#Ques : Why should we only (well mostly) use 3x3 Kernels?
+# Ques : Why should we only (well mostly) use 3x3 Kernels?
 *Ans*  :
 
 
-#Ques : How many times do we need to perform 3x3 convolution operation to reach 1x1 from 199x199?
+# Ques : How many times do we need to perform 3x3 convolution operation to reach 1x1 from 199x199?
 *Ans*  : We need to perform *99* times 3x3 convolution operation.
 
 *Func* : ```python
@@ -18,7 +18,8 @@
 		        x = x - 2
 		        print str (x) + 'x' + str (x)
 		        count += 1
-	          print count```
+	          print count
+	```
 
 *Calc* : 199x199 | 3x3 > 197x197
        197x197 | 3x3 > 195x195
