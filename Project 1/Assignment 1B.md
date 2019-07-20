@@ -1,6 +1,6 @@
 # Ques : What are Channels and Kernels?
 **Ans**  : Channel is a container of similar things whereas kernels help us to identify those similar things.  
-	   For example: `Horizontal lines` is a channel whereas [[-1,-1,-1],[0,0,0],[1,1,1]] is a kernel to identify all the horizontal lines in the image.
+	   For example: `Horizontal lines` is a channel whereas `[[-1,-1,-1],[0,0,0],[1,1,1]]` is a kernel to identify all the horizontal lines in the image.
 
 
 # Ques : Why should we only (well mostly) use 3x3 Kernels?
