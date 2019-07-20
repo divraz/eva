@@ -11,15 +11,15 @@
 
 **Func** : 
 ```python  
-	  def number_of_operations (x):  
-	        count = 0  
-	        while (x != 1):  
-		        print '......',  
-		        print str (x) + 'x' + str (x), '| 3x3 >',  
-		        x = x - 2  
-		        print str (x) + 'x' + str (x)  
-		        count += 1  
-	          print count  
+def number_of_operations (x):  
+	count = 0  
+	while (x != 1):  
+		print '......',  
+		print str (x) + 'x' + str (x), '| 3x3 >',  
+		x = x - 2  
+		print str (x) + 'x' + str (x)  
+		count += 1  
+		print count  
 ```
 
 **Calc** : 199x199 | 3x3 > 197x197  
