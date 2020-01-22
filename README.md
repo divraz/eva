@@ -9,3 +9,6 @@ Experiments done in the EVA 2.0 course
 
 ### Experiment 13
 * ResNet18 model used on CIFAR10 dataset to cross 90% accuracy mark (keras and tensorflow2).
+
+### Experiment 14
+* DavidNet with cutout and tfrecords on CIFAR10
