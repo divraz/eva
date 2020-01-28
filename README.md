@@ -12,3 +12,6 @@ Experiments done in the EVA 2.0 course
 
 ### Experiment 14
 * DavidNet with cutout and tfrecords on CIFAR10
+
+### Experiment 15
+* Using inbuilt personal libraries
