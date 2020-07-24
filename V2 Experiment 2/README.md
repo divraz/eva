@@ -2,19 +2,19 @@
 - 88.14 % Accuracy
 
 ## Contents
-- Serverless API Endpoint
-- Data Collection
-- Transfer Learning
-- Data Augmentation
-- Graphs
-- Misclassified Images
+- [Serverless API Endpoint](#serverless-api-endpoint)
+- [Data Collection](#data-collection)
+- [Transfer Learning](#transfer-learning)
+- [Data Augmentation](#data-augmentation)
+- [Graphs](#graphs)
+- [Misclassified Images](#misclassified_images)
 
 ## Serverless API Endpoint
 - https://ie8mujag6h.execute-api.ap-south-1.amazonaws.com/dev/classify [POST]
 	- Headers : 'content-type: multipart/form-data'
 	- Body : Image file with empty key
 
-## Data Collecction
+## Data Collection
 - 21,500 images have been collected via group effort over four classes:
 	- Flying Birds
 	- Small QuadCopters
@@ -72,9 +72,7 @@ model_ft = train_model(model_ft, criterion, optimizer_ft, exp_lr_scheduler, num_
     ])
 ```
 ## Graphs
-- Accuracy graph:
 ![](https://github.com/divyanshuraj6815/eva/blob/master/V2%20Experiment%202/images/acc.png)
-- Loss graphs:
 ![](https://github.com/divyanshuraj6815/eva/blob/master/V2%20Experiment%202/images/loss.png)
 
 ## Misclassified Images
