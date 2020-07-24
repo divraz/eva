@@ -1,4 +1,5 @@
 # MobiNet V2 Training and Deployment on Serverless for Custom Dataset
+- 88.14 % Accuracy
 
 ## Contents
 - Serverless API Endpoint
@@ -44,7 +45,7 @@ model_ft = train_model(model_ft, criterion, optimizer_ft, exp_lr_scheduler, num_
 ```
 
 ## Data Augmentation
-![](https://github.com/divyanshuraj6815/eva/blob/master/V2%20Experiment%202/index.png)
+![](https://github.com/divyanshuraj6815/eva/blob/master/V2%20Experiment%202/images/d_aug.png)
 - To solve the huge variation in image size, all image have been resized to 300, and then random crop of 224 x 224
 - Augmentation techniques used:
 	- rotation
@@ -71,4 +72,17 @@ model_ft = train_model(model_ft, criterion, optimizer_ft, exp_lr_scheduler, num_
     ])
 ```
 ## Graphs
+- Accuracy graph:
+![](https://github.com/divyanshuraj6815/eva/blob/master/V2%20Experiment%202/images/acc.png)
+- Loss graphs:
+![](https://github.com/divyanshuraj6815/eva/blob/master/V2%20Experiment%202/images/loss.png)
+
 ## Misclassified Images
+- Flying Birds
+![](https://github.com/divyanshuraj6815/eva/blob/master/V2%20Experiment%202/images/mis_birds.png)
+- Large QuadCopters
+![](https://github.com/divyanshuraj6815/eva/blob/master/V2%20Experiment%202/images/mis_ltors.png)
+- Small QuadCopters
+![](https://github.com/divyanshuraj6815/eva/blob/master/V2%20Experiment%202/images/mis_stors.png)
+- Winged Drones
+![](https://github.com/divyanshuraj6815/eva/blob/master/V2%20Experiment%202/images/mis_drones.png)
