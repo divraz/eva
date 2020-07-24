@@ -7,7 +7,7 @@
 - [Transfer Learning](#transfer-learning)
 - [Data Augmentation](#data-augmentation)
 - [Graphs](#graphs)
-- [Misclassified Images](#misclassified_images)
+- [Misclassified Images](#misclassified-images)
 
 ## Serverless API Endpoint
 - https://ie8mujag6h.execute-api.ap-south-1.amazonaws.com/dev/classify [POST]
