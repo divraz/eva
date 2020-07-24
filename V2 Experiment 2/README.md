@@ -44,6 +44,7 @@ model_ft = train_model(model_ft, criterion, optimizer_ft, exp_lr_scheduler, num_
 ```
 
 ## Data Augmentation
+![](https://github.com/divyanshuraj6815/eva/blob/master/V2%20Experiment%202/index.png)
 - To solve the huge variation in image size, all image have been resized to 300, and then random crop of 224 x 224
 - Augmentation techniques used:
 	- rotation
