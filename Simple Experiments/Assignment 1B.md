@@ -126,3 +126,19 @@ def number_of_operations (x):
 7x7 | 3x3 > 5x5   
 5x5 | 3x3 > 3x3   
 3x3 | 3x3 > 1x1   
+
+# How are kernels initialized?
+**Ans** Kernels are initialized randomly when we start training. Although, there are certain algorithms followed for initialization of kernels and randomness is set to a range.
+- Some examples are:
+	- Orthogonal: Initializer that generates a random orthogonal matrix.
+	- Identity: Initializer that generates the identity matrix.
+	- lecun_uniform: LeCun uniform initializer.
+	- glorot_normal: Glorot normal initializer, also called Xavier normal initializer.
+	- glorot_uniform: Glorot uniform initializer, also called Xavier uniform initializer.
+	- he_normal: He normal initializer.
+	- lecun_normal: LeCun normal initializer.
+	- he_uniform: He uniform variance scaling initializer.
+
+
+# What happens during the training of a DNN?
+**Ans** During the training of a DNN all randomly initialized kernels are assigned weights based on brack propogation and loss so that the last layer always gives the desired output.
